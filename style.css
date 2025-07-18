@@ -22,7 +22,11 @@ body {
             color: blue;
             font-style: italic;
         }
+        
         .error {
-            color: red;
-            font-weight: bold;
+        color: red;
+        font-weight: bold;
+        background-color: #ffe0e0;
+        padding: 10px;
+        border-radius: 5px;
         }

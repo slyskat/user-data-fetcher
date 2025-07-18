@@ -20,17 +20,21 @@ fetchUserButton.addEventListener('click', function (event) {
 
       let name = data[0].name;
       let email = data[0].email
+      let companyName = data[0].company.name;
 
       displayUserData.innerHTML = '';
 
       const nameParagraph = document.createElement('p');
       const emailParagraph = document.createElement('p');
+      const companyNameParagraph = document.createElement('p');
 
       nameParagraph.textContent = `Name: ${name}`;
       emailParagraph.textContent = `Email: ${email}`;
+      companyParagraph.textContent = `Company: ${companyName}`;
 
       displayUserData.appendChild(nameParagraph);
       displayUserData.appendChild(emailParagraph);
+      displayUserData.appendChild(companyNameParagraph);
     }
 
     catch (error) {
