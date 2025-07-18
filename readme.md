@@ -31,4 +31,4 @@ This is a simple front-end web application that demonstrates fetching and displa
 
 ## Live Demo
 
-*(We will add this link here once you set up GitHub Pages!)*
+https://slyskat.github.io/user-data-fetcher/
