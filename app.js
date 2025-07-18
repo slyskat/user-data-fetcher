@@ -1,3 +1,5 @@
+// This script fetches and displays user data from JSONPlaceholder.
+
 const fetchUserButton = document.getElementById('fetchUserBtn');
 const displayUserData = document.getElementById('userData');
 
