@@ -34,8 +34,7 @@ fetchUserButton.addEventListener('click', function (event) {
     }
 
     catch (error) {
-      console.log(error);
-      console.error("Error details:", error.message);
+      displayUserData.innerHTML = <p class='error'>Failed to load user data. Error : ${error.message}</p>;
     } finally {
       console.log("Fetch attempt finished.");
     }
